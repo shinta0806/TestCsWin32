@@ -1,4 +1,4 @@
-﻿<Page
+<Page
     x:Class="TestCsWin32.Views.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -7,20 +7,10 @@
     Background="{ThemeResource SolidBackgroundFillColorBaseBrush}"
     mc:Ignorable="d">
 
-    <Grid x:Name="ContentArea">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="48" />
-            <RowDefinition Height="*" />
-        </Grid.RowDefinitions>
+	<StackPanel >
 
-        <TextBlock
-            Grid.Row="0"
-            x:Uid="Main_Title"
-            Style="{StaticResource PageTitleStyle}" />
+		<Button Content="Win32 API" Click="Button01_Click" />
 
-        <Grid Grid.Row="1">
-            
-        </Grid>
-        
-    </Grid>
+	</StackPanel>
+
 </Page>
