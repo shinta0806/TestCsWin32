@@ -1,0 +1,10 @@
+﻿{
+    "profiles": {
+      "TestCsWin32 (Package)": {
+        "commandName": "MsixPackage"
+      },
+      "TestCsWin32 (Unpackaged)": {
+        "commandName": "Project"
+      }
+    }
+}
