@@ -2,4 +2,4 @@
 
 ![実行イメージ](Run.png)
 
-詳細：
+詳細：https://zenn.dev/shinta0806/articles/cswin32-separation
